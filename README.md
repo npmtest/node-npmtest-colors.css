@@ -1,4 +1,7 @@
-# test coverage for  [colors.css (v3.0.0)](http://clrs.cc)  [![npm package](https://img.shields.io/npm/v/npmtest-colors.css.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-colors.css) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-colors.css.svg)](https://travis-ci.org/npmtest/node-npmtest-colors.css)
+# npmtest-colors.css
+
+#### basic test coverage for  [colors.css (v3.0.0)](http://clrs.cc)  [![npm package](https://img.shields.io/npm/v/npmtest-colors.css.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-colors.css) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-colors.css.svg)](https://travis-ci.org/npmtest/node-npmtest-colors.css)
+
 #### Better default colors for the web. A collection of skin classes for faster prototyping and nicer looking sites.
 
 [![NPM](https://nodei.co/npm/colors.css.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/colors.css)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-colors.css/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-colors.css/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-colors.css/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-colors.css/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-colors.css/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-colors.css/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-colors.css/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-colors.css/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-colors.css/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-colors.css/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-colors.css/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-colors.css/build/coverage.html/index.html)
 
@@ -107,7 +110,8 @@
         "start": "tachyons src/colors.css > css/colors.css && tachyons src/colors.css --minify > css/colors.min.css && tachyons src/colors.css --generate-docs --package=../../package.json > readme.md"
     },
     "style": "css/colors.css",
-    "version": "3.0.0"
+    "version": "3.0.0",
+    "bin": {}
 }
 ```
 
